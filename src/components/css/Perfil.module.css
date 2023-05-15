@@ -1,0 +1,61 @@
+/* CSS PERFIL */
+.perfil {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(52, 57, 71);
+}
+
+.ftperfil {
+  margin-top: 150px;
+  border-radius: 150px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  padding: 14px;
+  flex-wrap: wrap;
+  /* quebra um elemento quando nao cabe mais na linha do tamanho que foi indicado */
+  /* align-items: center;    */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+  font-weight: lighter;
+}
+
+
+.icon1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+  margin: auto;
+  padding: 10px;
+}
+
+.icon1 svg {
+  color: #fff;
+  font-size: 2em;
+}
+
+.icon1 svg:hover {
+  color: #A3B7FF;
+  transform: scale(1.4);
+  transition: all 0.2s; 
+ }
+
+ 
